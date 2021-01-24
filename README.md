@@ -1,5 +1,5 @@
 <a href="https://www.narative.co/labs/novela/" target="_blank">
-<img src="https://raw.githubusercontent.com/tinialabs/next-theme-novela/master/.github/static/gatsby-theme-novela-hero-emotion.jpg" alt="gatsby-novela-theme hero image" />
+<img src="https://github.com/tinialabs/next-theme-novela/blob/main/.github/static/nextjs-theme-novela-hero-emotion.jpg?raw=true" alt="gatsby-novela-theme hero image" />
 </a>
 
 <br/>
@@ -14,7 +14,7 @@ Special thanks to [@jpvalery](https://github.com/jpvalery) for helping maintain 
 
 <div>
 <a href="https://www.narative.co/labs/novela/" target="_blank">
-<img src="https://raw.githubusercontent.com/tinialabs/next-theme-novela/master/.github/static/gatsby-theme-novela-cta-demo.jpg" alt="gatsby-novela-theme live demo" width="295px" />
+<img src="https://github.com/tinialabs/next-theme-novela/blob/main/.github/static/nextjs-theme-novela-cta-demo.jpg?raw=true" alt="gatsby-novela-theme live demo" width="295px" />
 </a>
 </div>
 
