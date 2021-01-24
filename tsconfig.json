@@ -1,0 +1,45 @@
+{
+  "compilerOptions": {
+    "skipLibCheck": true,
+    "strict": false,
+    "noEmit": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "module": "es2020",
+    "target": "esnext",
+    "lib": ["esnext", "dom"],
+    "sourceMap": true,
+    "allowJs": false,
+    "moduleResolution": "node",
+    "outDir": "build",
+    "rootDir": ".",
+    "forceConsistentCasingInFileNames": true,
+    "allowSyntheticDefaultImports": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noImplicitAny": false,
+    "strictNullChecks": false,
+    "suppressImplicitAnyIndexErrors": true,
+    "noUnusedLocals": false,
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "resolveJsonModule": true,
+    "downlevelIteration": true,
+    "stripInternal": true,
+    "baseUrl": ".",
+    "paths": {
+         "@/theme/types": ["types/index.ts"],
+         "@/theme/*": ["src/*"],
+         "@/lib/*": ["lib/*"],
+         "@/config/*": ["../.config/*"]
+    },
+  },
+  "include": [
+    "**/*.ts",
+    "**/*.tsx",
+    "*.config.js"  
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}

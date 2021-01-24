@@ -1,0 +1,76 @@
+{
+  "name": "next-theme-novela",
+  "version": "2.0.0",
+  "keywords": [
+    "nextjs",
+    "novela",
+    "mdx",
+    "typescript",
+    "react"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "dev": "next dev",
+    "dev:watch": "next-remote-watch ./content",
+    "build": "NODE_ENV=production next build",
+    "export": "NODE_ENV=production NEXT_ENV=export next build && next export",
+    "start": "NODE_ENV=production next start",
+    "postbuild": "NODE_ENV=production next-sitemap --config ../.config/next-sitemap.js",
+    "clean": "rm -rf .next && rm -rf  out && rm -rf public && ln -s ../public public"
+  },
+  "dependencies": {
+    "@blocks/kit": "^0.0.28",
+    "@emotion/react": "^11.1.4",
+    "@emotion/styled": "^11.0.0",
+    "@emotion/babel-plugin": "^11.1.2",
+    "theme-ui": "next",
+    "typeface-merriweather": "^1.1.13",
+    "lodash": "^4.17.20",
+    "prism-react-renderer": "^1.1.1",
+    "react-helmet": "^6.1.0",
+    "react-live": "^2.2.3",
+    "react-medium-image-zoom": "^4.3.1",
+    "react-outside-click-handler": "^1.3.0",
+    "remark-emoji": "^2.1.0",
+    "remark-oembed": "^1.2.1",
+    "@ngsctt/remark-smartypants": "^0.2.0",
+    "favicons": "^6.2.0",
+    "favicons-webpack-plugin": "next",
+    "remark-external-links": "^8.0.0",
+    "remark-slug": "^6.0.0"
+  },
+  "devDependencies": {
+    "next-image-meta-loader": "^2.0.0",
+    "next-compose-plugins": "^2.2.1",
+    "@types/theme-ui": "^0.3.7",
+    "@types/nprogress": "^0.2.0",
+    "@types/classnames": "^2.2.11",
+    "@types/jest": "^26.0.20",
+    "@types/node": "^14.14.20",
+    "@types/react": "^17.0.0",
+    "@types/react-dom": "^17.0.0",
+    "classnames": "2.2.6",
+    "date-fns": "2.10.0",
+    "fathom-client": "^3.0.0",
+    "globby": "^11.0.2",
+    "lazysizes": "^5.3.0",
+    "next": "latest",
+    "next-mdx-remote": "^2.1.1",
+    "next-remote-watch": "0.3.0",
+    "next-seo": "^4.17.0",
+    "next-sitemap": "^1.4.5",
+    "nprogress": "^0.2.0",
+    "prettier": "^2.2.1",
+    "reading-time": "^1.2.1",
+    "rehype": "^11.0.0",
+    "typescript": "^4.1.3",
+    "webpack": "^5.17.0"
+  },
+  "peerDependencies": {
+    "react": "^17.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tinialabs/next-theme-novela.git"
+  }
+}
