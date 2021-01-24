@@ -10,7 +10,7 @@ With minimal styling and maximum features — including multiple homepage layout
 
 Novela is built by the team at [Narative](https://www.narative.co), updated by [Tinia Labs](https://tinia.org) to work on Next.js, and built for everyone that loves the web.
 
-Special thanks to [@jpvalery](https://github.com/jpvalery) for helping maintain Novela.
+Special thanks to [@jpvalery](https://github.com/jpvalery) for helping maintain the original Gatsby version of Novela.
 
 <div>
 <a href="https://www.narative.co/labs/novela/" target="_blank">
