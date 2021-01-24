@@ -4,7 +4,7 @@
 
 <br/>
 
-# Novela — A theme by Narative, forked for Next.js by Tinia Labs
+# Novela — A blog theme for Next.js
 
 With minimal styling and maximum features — including multiple homepage layouts, built-in social sharing and dark mode — Novela makes it easy to start publishing beautiful articles and stories with Next.js.
 
