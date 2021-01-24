@@ -30,7 +30,7 @@ Features specific to Next.js over others Next.js examples
 
 ## Lighthouse scores (January 2021 on Vercel)
 
-<img src="https://github.com/tinialabs/next-theme-novela/blob/main/.github/static/lighthouse-scores-january-2021.png?raw=true" alt="Lighthouse 100-97-100-100" width="295px" />
+<img src="https://github.com/tinialabs/next-theme-novela/blob/main/.github/static/lighthouse-scores-january-2021.png?raw=true" alt="Lighthouse 100-97-100-100"  />
 
 ### Table of Contents
 
