@@ -28,6 +28,10 @@ Features specific to Next.js over others Next.js examples
 - **Fast performance** Much faster build times than Gatsby for the exact same blog content and layout;  >95 lighthouse scores in every category currently
 - **Simpler project structure** Instead of multiple gatsby hooks, use Next.js intuitive /pages structure for a better developer experience
 
+## Lighthouse scores (January 2021 on Vercel)
+
+<img src="https://github.com/tinialabs/next-theme-novela/blob/main/.github/static/lighthouse-scores-january-2021.png?raw=true" alt="Lighthouse 100-97-100-100" width="295px" />
+
 ### Table of Contents
 
 - [Why Novela?](#why-use-novela)
