@@ -42,7 +42,7 @@ See [tinialabs/next-starter-novela](https://github.com/tinialabs/next-starter-no
 
 See [tinialabs/next-lib-content](https://github.com/tinialabs/next-lib-content) for logic that generates the blog articles from markdown and yaml files on disk. 
 
-Two Next.js plugins [tinialabs/next-favicon-loader](https://github.com/tinialabs/next-favicon-loader) and [tinialabs/next-meta-image-loader](https://github.com/tinialabs/next-meta-image-loader) were hand-written to provide some of the Gatsby functionality in the original Novela theme and can now be used in any Next.js site.
+Two Next.js plugins [tinialabs/next-favicon-loader](https://github.com/tinialabs/next-favicon-loader) and [tinialabs/next-image-meta-loader](https://github.com/tinialabs/next-image-meta-loader) were hand-written to provide some of the Gatsby functionality in the original Novela theme and can now be used in any Next.js site.
 
 ### Table of Contents
 
