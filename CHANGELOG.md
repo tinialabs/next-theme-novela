@@ -262,7 +262,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 ### Features
 
 * **blog:** add TripAdvisor in social links ([a55be90](https://github.com/narative/gatsby-theme-novela/commit/a55be901114096f3ec59c90df07760919de9f7b6))
-* Adds canonical_url support for articles ([4e2b438](https://github.com/narative/gatsby-theme-novela/commit/4e2b438a0a1c99016e36c1ff85ad4ae7eb5f1033))
+* Adds canonicalUrl support for articles ([4e2b438](https://github.com/narative/gatsby-theme-novela/commit/4e2b438a0a1c99016e36c1ff85ad4ae7eb5f1033))
 
 
 

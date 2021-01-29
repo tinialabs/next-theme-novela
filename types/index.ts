@@ -47,7 +47,7 @@ export interface IArticle {
   secret: boolean
   timeToRead?: number
   title?: string
-  canonical_url?: string
+  canonicalUrl?: string
   subscription?: boolean
 }
 

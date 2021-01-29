@@ -31,7 +31,8 @@
          "@/theme/types": ["types/index.ts"],
          "@/theme/*": ["src/*"],
          "@/lib/*": ["lib/*"],
-         "@/config/*": ["../.config/*"]
+         "@/config/*": ["../.config/*"],
+         "@/content/*": ["../content/*"]
     },
   },
   "include": [
