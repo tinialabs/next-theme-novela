@@ -1,4 +1,5 @@
-import React, { useRef, useEffect, useState } from 'react'
+import { useRef, useEffect, useState } from 'react'
+import type * as React from 'react'
 import styled from '@emotion/styled'
 import mediaqueries from '@/theme/styles/media'
 

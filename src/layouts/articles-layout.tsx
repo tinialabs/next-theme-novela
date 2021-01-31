@@ -1,16 +1,16 @@
-import React from 'react'
+import type * as React from 'react'
 import styled from '@emotion/styled'
 import Section from '@/theme/components/section'
 import SEO from '@/theme/components/seo'
 import Layout from '@/theme/components/layout'
 import Paginator from '@/theme/components/navigation-paginator'
-import type { PageContextArticles, SiteProps } from '@/theme/types'
+import type { IPageContextArticles, SiteProps } from '@/theme/types'
 import { useRouter } from 'next/router'
 import ArticlesHero from './articles/articles-hero'
 import ArticlesList from './articles/articles-list'
 
 const ArticlesPage: React.FC<{
-  pageContext: PageContextArticles
+  pageContext: IPageContextArticles
   siteProps: SiteProps
 }> = ({ pageContext, siteProps }) => {
   const articles = pageContext.pageArticles

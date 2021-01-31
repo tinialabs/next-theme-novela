@@ -1,4 +1,3 @@
-import React from 'react'
 import type { Icon } from '@/theme/types'
 
 const UnsplashIcon: Icon = ({ fill = 'white' }) => (

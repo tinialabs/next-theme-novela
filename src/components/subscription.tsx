@@ -1,4 +1,5 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
+import type * as React from 'react'
 import styled from '@emotion/styled'
 import Section from '@/theme/components/section'
 import mediaqueries from '@/theme/styles/media'

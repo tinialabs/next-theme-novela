@@ -1,4 +1,5 @@
-import React, { useContext } from 'react'
+import { useContext } from 'react'
+import type * as React from 'react'
 import styled from '@emotion/styled'
 import Section from '@/theme/components/section'
 import Bio from '@/theme/components/bio'

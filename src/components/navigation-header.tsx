@@ -1,4 +1,5 @@
-import React, { useState, useEffect } from 'react'
+import { useState, useEffect } from 'react'
+import type * as React from 'react'
 import styled from '@emotion/styled'
 import { useRouter } from 'next/router'
 import { useColorMode } from 'theme-ui'

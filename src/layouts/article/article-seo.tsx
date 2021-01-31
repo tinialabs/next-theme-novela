@@ -1,4 +1,4 @@
-import React from 'react'
+import type * as React from 'react'
 import SEO from '@/theme/components/seo'
 import type { IArticleDetail, SEOSiteProps } from '@/theme/types'
 import { useRouter } from 'next/router'

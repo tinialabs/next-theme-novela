@@ -1,4 +1,5 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
+import type * as React from 'react'
 import styled from '@emotion/styled'
 import OutsideClickHandler from 'react-outside-click-handler'
 import { useColorMode } from 'theme-ui'

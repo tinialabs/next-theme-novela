@@ -1,4 +1,5 @@
-import React, { useRef, useState, useEffect } from 'react'
+import { useRef, useState, useEffect } from 'react'
+import type * as React from 'react'
 import styled from '@emotion/styled'
 import throttle from 'lodash/throttle'
 import ArticleBody from '@/theme/components/article-body'
@@ -6,7 +7,7 @@ import Layout from '@/theme/components/layout'
 import Progress from '@/theme/components/progress'
 import Section from '@/theme/components/section'
 import mediaqueries from '@/theme/styles/media'
-import type { SiteProps, PageContextArticle } from '@/theme/types'
+import type { SiteProps, IPageContextArticle } from '@/theme/types'
 import { debounce } from '@/theme/utils'
 
 import ArticleAside from './article/article-aside'
@@ -18,7 +19,7 @@ import ArticleShare from './article/article-share'
 import ArticleFooter from './article/article-footer'
 
 const ArticleLayout: React.FC<{
-  pageContext: PageContextArticle
+  pageContext: IPageContextArticle
   content: unknown
   siteProps: SiteProps
 }> = ({ pageContext, content, siteProps }) => {

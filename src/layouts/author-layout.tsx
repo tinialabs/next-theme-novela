@@ -1,17 +1,17 @@
-import React from 'react'
+import type * as React from 'react'
 import styled from '@emotion/styled'
 import { useRouter } from 'next/router'
 import Section from '@/theme/components/section'
 import SEO from '@/theme/components/seo'
 import Layout from '@/theme/components/layout'
 import Paginator from '@/theme/components/navigation-paginator'
-import type { PageContextAuthor, SiteProps } from '@/theme/types'
+import type { IPageContextAuthor, SiteProps } from '@/theme/types'
 
 import AuthorHero from './author/author-hero'
 import AuthorArticles from './author/author-articles'
 
 const ArticlesPage: React.FC<{
-  pageContext: PageContextAuthor
+  pageContext: IPageContextAuthor
   siteProps: SiteProps
 }> = ({ pageContext, siteProps }) => {
   const author = pageContext.author

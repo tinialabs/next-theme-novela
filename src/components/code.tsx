@@ -1,4 +1,5 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
+import type * as React from 'react'
 import Highlight, { defaultProps, Language } from 'prism-react-renderer'
 import styled from '@emotion/styled'
 import { LiveProvider, LiveEditor, LiveError, LivePreview } from 'react-live'

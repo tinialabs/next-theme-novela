@@ -1,4 +1,5 @@
-import React, { useCallback, useState } from 'react'
+import { useCallback, useState } from 'react'
+import type * as React from 'react'
 import { Controlled as ControlledZoom } from 'react-medium-image-zoom'
 import { useThemeUI } from 'theme-ui'
 import 'react-medium-image-zoom/dist/styles.css'

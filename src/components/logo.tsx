@@ -1,4 +1,3 @@
-import React from 'react'
 import styled from '@emotion/styled'
 import mediaqueries from '@/theme/styles/media'
 import type { Icon } from '@/theme/types'

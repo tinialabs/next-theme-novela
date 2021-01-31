@@ -1,9 +1,9 @@
-import React from 'react'
+import type * as React from 'react'
 import Subscription from '@/theme/components/subscription'
-import type { PageContextArticle } from '@/theme/types'
+import type { IPageContextArticle } from '@/theme/types'
 
 const ArticleFooter: React.FC<{
-  pageContext: PageContextArticle
+  pageContext: IPageContextArticle
 }> = ({ pageContext }) => {
   const { article, mailchimp } = pageContext
 

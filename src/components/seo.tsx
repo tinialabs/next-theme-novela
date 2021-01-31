@@ -1,4 +1,4 @@
-import React from 'react'
+import type * as React from 'react'
 import Helmet from 'react-helmet'
 import type { SEOSiteProps, ISocial } from '@/theme/types'
 

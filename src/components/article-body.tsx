@@ -1,5 +1,5 @@
 import styled from '@emotion/styled'
-import React from 'react'
+import { forwardRef } from 'react'
 import mediaqueries from '@/theme/styles/media'
 import { MDXBodyStyles } from './mdx-components'
 
@@ -22,7 +22,7 @@ const ArticleBodyWrapper = styled.article`
   `}
 `
 
-export const ArticleBody = React.forwardRef<
+export const ArticleBody = forwardRef<
   HTMLDivElement,
   { children: unknown }
 >(({ children }, ref) => {

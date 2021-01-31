@@ -410,7 +410,7 @@ Start by creating the component file at:
 It is important you create the exact folder structure so Next.js knows to shadow this component. Once the file is created you can create your Logo component.
 
 ```jsx
-import React from 'react';
+import React from 'react'
 
 /**
  * Paste in your SVG logo and return it from this component.

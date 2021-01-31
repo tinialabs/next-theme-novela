@@ -1,4 +1,5 @@
-import React, { useEffect } from 'react'
+import { useEffect } from 'react'
+import type * as React from 'react'
 import { Global } from '@emotion/react'
 import styled from '@emotion/styled'
 import { useColorMode } from 'theme-ui'

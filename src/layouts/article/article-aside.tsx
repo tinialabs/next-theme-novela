@@ -1,4 +1,12 @@
-import React, { useState, useRef, useEffect } from 'react'
+import {
+  useState,
+  useRef,
+  useEffect,
+  Children,
+  cloneElement,
+  memo
+} from 'react'
+import type * as React from 'react'
 import styled from '@emotion/styled'
 import throttle from 'lodash/throttle'
 import mediaqueries from '@/theme/styles/media'
@@ -32,8 +40,8 @@ const Aside: React.FC<AsideProps> = ({ contentHeight, children }) => {
   const [shouldFixAside, setShouldFixAside] = useState<boolean>(false)
 
   const show = imageOffset && progress < 100
-  const childrenWithProps = React.Children.map(children, (child) =>
-    React.cloneElement(child as any, { show })
+  const childrenWithProps = Children.map(children, (child) =>
+    cloneElement(child as any, { show })
   )
 
   useEffect(() => {
@@ -100,7 +108,7 @@ const AsideContainer = styled.aside`
   `}
 `
 
-const Align = React.memo(styled.div<{
+const Align = memo(styled.div<{
   show: boolean
   shouldFixAside: boolean
   imageOffset: number

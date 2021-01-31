@@ -1,4 +1,5 @@
-import React, { createContext, useState } from 'react'
+import { createContext, useState } from 'react'
+import type * as React from 'react'
 
 export const GridLayoutContext = createContext({
   gridLayout: 'tiles',
