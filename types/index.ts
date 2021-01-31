@@ -1,59 +1,30 @@
-import React from 'react'
+import type * as React from 'react'
 
-export type SizeHint =
-  | 'avatarSmall'
-  | 'avatarMedium'
-  | 'avatarLarge'
-  | 'full'
-  | 'narrow'
-  | 'regular'
-  | 'seo'
+import type {
+  IAuthor,
+  IArticle,
+  IArticleDetail
+} from 'next-lib-content/src/types'
 
-export interface INovelaImage {
-  src: string
-  alt: string
-  width?: number
-  height?: number
-  sizeHint?: SizeHint
-  aspectRatio?:
-    | 'portrait'
-    | 'landscape'
-    | 'square'
-    | 'widescreen'
-    | 'panorama'
-    | number
-}
+export type { IAuthor, IArticle, IArticleDetail }
 
-export interface IAuthor {
-  slug: string
-  name: string
-  bio: string
-  avatar: INovelaImage
-  social: Array<{
-    name: string
-    url: string
-  }>
-  featured?: boolean
-  authorsPage?: boolean
-}
+export type {
+  SizeHintType,
+  INovelaImage,
+  SEOSiteProps,
+  HeroSiteProps,
+  BlogSiteProps,
+  ManifestSiteProps,
+  AnalyticsSiteProps,
+  SiteProps,
+  ISocial
+} from 'next-lib-content/src/types'
 
-export interface IArticle {
-  id: string
-  slug: string
-  author: string
-  excerpt: string
-  hero: INovelaImage
-  date: string
-  secret: boolean
-  timeToRead?: number
-  title?: string
-  canonicalUrl?: string
-  subscription?: boolean
-}
-
-export interface IArticleDetail extends IArticle, Record<string, any> {
-  authors: IAuthor[]
-}
+export type Icon = React.FC<{
+  fill?: string
+  width?: string
+  height?: string
+}>
 
 export interface IProgress {
   height: number
@@ -63,97 +34,26 @@ export interface IProgress {
   onClose?: () => void
 }
 
-export type Icon = React.FC<{
-  fill?: string
-  width?: string
-  height?: string
-}>
-
-export interface SEOSiteProps {
-  title: string
-  name: string
-  siteUrl: string
-  description: string
-  social: Social[]
-}
-
-export interface HeroSiteProps {
-  hero: {
-    url?: string
-    heading: string
-    maxWidth: number
-  }
-}
-
-export interface BlogSiteProps {
-  blog: {
-    contentPosts: string
-    contentAuthors: string
-    rootPath: string
-    basePath: string
-    pathPosts: string
-    pathAuthors: string
-    authorsPage: boolean
-    mailchimp: boolean
-    pageLength: number
-    sources: {
-      local: boolean
-      contentful: boolean
-    }
-    copyrightYear: string
-  }
-}
-
-export interface ManifestSiteProps {
-  manifest: {
-    name: string
-    short_name: string
-    start_url: string
-    background_color: string
-    theme_color: string
-    display: string
-    icon: string
-  }
-}
-
-export interface AnalyticsSiteProps {
-  googleAnalytics: {
-    trackingId: string
-  }
-}
-
-export interface SiteProps
-  extends SEOSiteProps,
-    HeroSiteProps,
-    BlogSiteProps,
-    ManifestSiteProps,
-    AnalyticsSiteProps {}
-
 export interface IPaginator {
   pageCount: number
   index: number
   pathPrefix: string
 }
 
-export interface PageContextArticles extends IPaginator {
+export interface IPageContextArticles extends IPaginator {
   featuredAuthor: IAuthor
   pageArticles: IArticle[]
   mailchimp: boolean
 }
 
-export interface PageContextArticle {
+export interface IPageContextArticle {
   article: IArticleDetail
   nextArticles: IArticle[]
   mailchimp: boolean
 }
 
-export interface PageContextAuthor extends IPaginator {
+export interface IPageContextAuthor extends IPaginator {
   author: IAuthor
   pageArticles: IArticle[]
   mailchimp: boolean
-}
-
-interface Social {
-  url: string
-  name: string
 }

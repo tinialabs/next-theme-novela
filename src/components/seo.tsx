@@ -1,6 +1,6 @@
 import React from 'react'
 import Helmet from 'react-helmet'
-import type { SEOSiteProps } from '@/theme/types'
+import type { SEOSiteProps, ISocial } from '@/theme/types'
 
 /**
  * This react helmt code is adapted from
@@ -19,7 +19,7 @@ import type { SEOSiteProps } from '@/theme/types'
  *   image={image}
  *   siteProps={ / * SEOSiteProps * /
  *       description: string
- *       social: Social[]
+ *       social: ISocial[]
  *       siteUrl: string
  *       title: string
  *       name: string
@@ -45,12 +45,7 @@ interface HelmetProps {
   isSecret?: boolean
 }
 
-interface Social {
-  url?: string
-  name?: string
-}
-
-const EMPTY_SOCIAL = {} as Social
+const EMPTY_SOCIAL = {} as ISocial
 
 const themeUIDarkModeWorkaroundScript = [
   {

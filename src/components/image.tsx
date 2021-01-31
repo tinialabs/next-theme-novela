@@ -1,9 +1,9 @@
 import React from 'react'
 import styled from '@emotion/styled'
-import type { INovelaImage, SizeHint } from '@/theme/types'
+import type { INovelaImage, SizeHintType } from '@/theme/types'
 import getOptimizedImages from './image-optimizer'
 
-const sizeHintWidths: Record<SizeHint, number> = {
+const sizeHintWidths: Record<SizeHintType, number> = {
   full: 944,
   regular: 653,
   narrow: 457,
